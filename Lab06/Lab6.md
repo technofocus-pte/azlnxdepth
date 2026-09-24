@@ -1,4 +1,4 @@
-# Lab 3 - Build Secure Payment Processing with Azure Container Linux
+# Lab 6 - Build Secure Payment Processing with Azure Container Linux
 
 ## Scenario
 
