@@ -58,7 +58,7 @@ With Log Analytics:
 2.  Run below command to create workspace
 
 > +++az monitor log-analytics workspace create --resource-group
-> ResourceGroup1 --workspace-name law-northwind-storefront --location
+> lab-vm --workspace-name law-northwind-storefront --location
 > eastus+++
 
 ![](./media/image2.png)
@@ -81,8 +81,8 @@ forwards it to Log Analytics.
 3.  Switch back to VS code and run below command to install Azure
     monitor agent.
 
-> +++az vm extension set --resource-group ResourceGroup1 --vm-name
-> vm-storefront-01 --publisher Microsoft.Azure.Monitor --name
+> +++az vm extension set --resource-group lab-vm --vm-name
+> vm-storefront@DeploymentID --publisher Microsoft.Azure.Monitor --name
 > AzureMonitorLinuxAgent+++
 
 ![](./media/image6.png)
@@ -91,8 +91,8 @@ forwards it to Log Analytics.
 
 4.  Run below command to verify installation.
 
-> +++az vm extension list --resource-group ResourceGroup1 --vm-name
-> vm-storefront-01 -o table+++
+> +++az vm extension list --resource-group lab-vm --vm-name
+> vm-storefront@DeploymentID -o table+++
 
 ![](./media/image8.png)
 
