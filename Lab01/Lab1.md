@@ -46,9 +46,9 @@ By the end of the lab, students will be able to:
 
 4.  Select below values
 
-Resource group : **ResourceGroup1**
+Resource group : **lab-vm**
 
-Virtual machine name : +++vm-storefront@lab.LabInstance.Id+++
+Virtual machine name : +++vm-storefront@DeploymentID+++
 
 Region: **East US**
 
@@ -326,11 +326,9 @@ INSERT INTO city (Name, CountryCode, District, Population) VALUES
 1.  Open new GitBash instance in VS code and clone the repo in your
     local VM
 
-+++git clone
-https://github.com/yoshioterada/Java-WebApp-to-Tomcat-on-Azure-App-Service-Linux.git+++
++++git clone https://github.com/yoshioterada/Java-WebApp-to-Tomcat-on-Azure-App-Service-Linux.git+++
 
-+++cd
-Java-WebApp-to-Tomcat-on-Azure-App-Service-Linux/java-webapp-with-mysql+++
++++cd Java-WebApp-to-Tomcat-on-Azure-App-Service-Linux/java-webapp-with-mysql+++
 
 ![](./media/image30.png)
 
