@@ -208,9 +208,6 @@ After completing this lab, you will be able to:
     Select: Add
 
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab05/media/image20.png)
-Name : +++lab5inbound+++
-
-Select:Add
 
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab05/media/image21.png)
 
@@ -228,14 +225,9 @@ Select:Add
 ### Task 1: Create a Gallery
 
 1. Search for +++Azure Compute Gallery+++ and select it.
-1.  Search for +++Azure Compute Gallery+++ and select it.
-
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab05/media/image24.png)
-
 1. Select **Create**
-
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab05/media/image25.png)
-
 1. Configure with below details and click on **Review + Create.**
 
     Gallery Name: `fleetGallery`
@@ -291,7 +283,7 @@ Select:Add
 
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab05/media/image35.png)
 
-1. Create image version with Version: **1.0.0** and then click on **Review + create.**
+1. Create image version with Version: +++1.0.0+++ and then click on **Review + create.**
 
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab05/media/image36.png)
 
@@ -328,6 +320,7 @@ Northwind Logistics is opening a new regional dispatch center. Instead of rebuil
     - Image: **fleet-tracking-image**, **1.0.0 - x64 Gen 2**
     - Key paid name : `eastkey`
     - Select inbound ports: 80, 22
+    - License type : other
 
     ![](https://raw.githubusercontent.com/technofocus-pte/azlnxdepth/refs/heads/main/Lab05/media/image42.png)
 
