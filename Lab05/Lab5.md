@@ -34,14 +34,10 @@ After completing this lab, you will be able to:
 ### Task 1: Create an Azure Linux Virtual Machine
 
 1. Sign in to the Azure portal - +++https://portal.azure.com+++ and sign in with your Azure credentials.
-1.  Sign in to the Azure portal- +++<https://porta.azure.com>+++ and
-    sign in with your Azure credentials.
-
-&nbsp;
 
 3.  Select Virtual Machines tile .Select: **Create \> Virtual Machine**
 
-> ![](./media/image1.png)
+![](./media/image1.png)
 
 4.  Configure the VM using the following settings:
 
